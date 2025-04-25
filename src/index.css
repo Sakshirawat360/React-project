@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+*{
+ 
+  box-sizing: border-box;
+  /* font-family: gilroy; */
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #111;
+  color: white;
+}
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+#adminform{
+  background-color: #1C1C1C;
+}
+#alltaskone::-webkit-scrollbar{
+  display: none;
+}
+
+@media(max-width:380px){
+  #login-page{
+   padding: 40px;
+   margin-left: 20%;
+  }
+}
+
+@media(max-width:540px){
+  #emp{
+    padding-left: 5%;
+  }
+}
+
+ 

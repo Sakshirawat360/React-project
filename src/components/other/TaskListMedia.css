@@ -1,0 +1,25 @@
+
+
+@media only screen and (max-width: 768px) {
+    
+    #sakshi{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+ 
+     }
+     .rawat{
+         width: 100%;
+     }
+  }
+
+  @media(max-width:390px){
+    
+html, body{
+    width: 110%;
+    background-color: #1c1c1c;
+  }
+  
+  }
+
+ 
+
